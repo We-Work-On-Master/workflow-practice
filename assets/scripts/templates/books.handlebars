@@ -1,0 +1,12 @@
+{{#each books as |book|}}
+  <section book-id="{{book.id}}">
+    <h6>Title:</h6>
+    <h3>
+      {{limit book.text 15}}
+    </h3>
+    <h6>Author:</h6>
+    <p>
+      {{book.author}}
+    </p>
+  </section>
+{{/each}}
