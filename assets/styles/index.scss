@@ -1,1 +1,35 @@
 @import '~bootstrap/scss/bootstrap';
+
+$dark-color: #000;
+$text-color: #0f0;
+$light-color: #808080;
+
+body {
+  background-color: $dark-color;
+}
+
+.btn {
+  background-color: $light-color;
+  margin: 30px;
+}
+
+.content {
+  font-weight: 600;
+  margin: 0 30px;
+}
+
+main {
+  background: $light-color;
+  border: 0;
+  border-radius: 4px;
+  color: $text-color;
+  margin: 10px;
+  outline: none;
+  padding: 5px;
+}
+
+.text {
+  color: $text-color;
+  font-family: 'Share Tech Mono', monospace;
+  padding: 30px;
+}
